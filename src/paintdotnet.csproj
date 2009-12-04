@@ -1,0 +1,631 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34920450-488E-41DF-8565-AA22C2A56902}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Resources\icons\PaintDotNet.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>PaintDotNet</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PaintDotNet</RootNamespace>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>301989888</BaseAddress>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>-Microsoft.Design#CA1012;-Microsoft.Design#CA2210;-Microsoft.Design#CA1040;-Microsoft.Design#CA1005;-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1010;-Microsoft.Design#CA1011;-Microsoft.Design#CA1009;-Microsoft.Design#CA1050;-Microsoft.Design#CA1026;-Microsoft.Design#CA1019;-Microsoft.Design#CA1031;-Microsoft.Design#CA1047;-Microsoft.Design#CA1000;-Microsoft.Design#CA1048;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1061;-Microsoft.Design#CA1006;-Microsoft.Design#CA1046;-Microsoft.Design#CA1045;-Microsoft.Design#CA1038;-Microsoft.Design#CA1008;-Microsoft.Design#CA1028;-Microsoft.Design#CA1004;-Microsoft.Design#CA1035;-Microsoft.Design#CA1063;-Microsoft.Design#CA1032;-Microsoft.Design#CA1023;-Microsoft.Design#CA1033;-Microsoft.Design#CA1039;-Microsoft.Design#CA1016;-Microsoft.Design#CA1014;-Microsoft.Design#CA1017;-Microsoft.Design#CA1018;-Microsoft.Design#CA1027;-Microsoft.Design#CA1059;-Microsoft.Design#CA1060;-Microsoft.Design#CA1034;-Microsoft.Design#CA1013;-Microsoft.Design#CA1036;-Microsoft.Design#CA1044;-Microsoft.Design#CA1041;-Microsoft.Design#CA1025;-Microsoft.Design#CA1052;-Microsoft.Design#CA1053;-Microsoft.Design#CA1057;-Microsoft.Design#CA1058;-Microsoft.Design#CA1001;-Microsoft.Design#CA1049;-Microsoft.Design#CA1054;-Microsoft.Design#CA1056;-Microsoft.Design#CA1055;-Microsoft.Design#CA1030;-Microsoft.Design#CA1003;-Microsoft.Design#CA1007;-Microsoft.Design#CA1043;-Microsoft.Design#CA1024;-Microsoft.Design#CA1062;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Interoperability#CA1403;-Microsoft.Interoperability#CA1406;-Microsoft.Interoperability#CA1413;-Microsoft.Interoperability#CA1402;-Microsoft.Interoperability#CA1407;-Microsoft.Interoperability#CA1404;-Microsoft.Interoperability#CA1410;-Microsoft.Interoperability#CA1411;-Microsoft.Interoperability#CA1405;-Microsoft.Interoperability#CA1409;-Microsoft.Interoperability#CA1415;-Microsoft.Interoperability#CA1408;-Microsoft.Interoperability#CA1414;-Microsoft.Interoperability#CA1412;-Microsoft.Maintainability#CA1502;-Microsoft.Maintainability#CA1501;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Naming#CA1718;-Microsoft.Naming#CA1720;-Microsoft.Naming#CA1700;-Microsoft.Naming#CA1712;-Microsoft.Naming#CA1713;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1715;-Microsoft.Naming#CA1710;-Microsoft.Naming#CA1707;-Microsoft.Naming#CA1722;-Microsoft.Naming#CA1711;-Microsoft.Naming#CA1716;-Microsoft.Naming#CA1705;-Microsoft.Naming#CA1725;-Microsoft.Naming#CA1719;-Microsoft.Naming#CA1721;-Microsoft.Naming#CA1706;-Microsoft.Naming#CA1724;-Microsoft.Naming#CA1726;-Microsoft.Performance#CA1809;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1812;-Microsoft.Performance#CA1807;-Microsoft.Performance#CA1813;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1816;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1800;-Microsoft.Performance#CA1818;-Microsoft.Performance#CA1805;-Microsoft.Performance#CA1810;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Performance#CA1814;-Microsoft.Performance#CA1819;-Microsoft.Performance#CA1804;-Microsoft.Performance#CA1820;-Microsoft.Performance#CA1802;-Microsoft.Portability#CA1900;-Microsoft.Reliability#CA2000;-Microsoft.Reliability#CA2002;-Microsoft.Reliability#CA2003;-Microsoft.Reliability#CA2004;-Microsoft.Reliability#CA2006;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2100;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2110;-Microsoft.Security#CA2120;-Microsoft.Security#CA2101;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124;-Microsoft.Usage#CA2209;-Microsoft.Usage#CA2236;-Microsoft.Usage#CA2227;-Microsoft.Usage#CA2213;-Microsoft.Usage#CA2216;-Microsoft.Usage#CA2215;-Microsoft.Usage#CA2214;-Microsoft.Usage#CA2222;-Microsoft.Usage#CA2202;-Microsoft.Usage#CA1806;-Microsoft.Usage#CA2217;-Microsoft.Usage#CA2212;-Microsoft.Usage#CA2219;-Microsoft.Usage#CA2201;-Microsoft.Usage#CA2228;-Microsoft.Usage#CA2221;-Microsoft.Usage#CA2220;-Microsoft.Usage#CA2240;-Microsoft.Usage#CA2229;-Microsoft.Usage#CA2238;-Microsoft.Usage#CA2207;-Microsoft.Usage#CA2208;-Microsoft.Usage#CA2235;-Microsoft.Usage#CA2237;-Microsoft.Usage#CA2232;-Microsoft.Usage#CA2223;-Microsoft.Usage#CA2211;-Microsoft.Usage#CA2233;-Microsoft.Usage#CA2225;-Microsoft.Usage#CA2226;-Microsoft.Usage#CA2231;-Microsoft.Usage#CA2224;-Microsoft.Usage#CA2218;-Microsoft.Usage#CA2234;-Microsoft.Usage#CA2241;-Microsoft.Usage#CA2239;-Microsoft.Usage#CA2200;-Microsoft.Usage#CA1801;-Microsoft.Usage#CA2205;-Microsoft.Usage#CA2230</CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>301989888</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>512</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>-Microsoft.Design#CA1012;-Microsoft.Design#CA2210;-Microsoft.Design#CA1040;-Microsoft.Design#CA1005;-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1010;-Microsoft.Design#CA1011;-Microsoft.Design#CA1009;-Microsoft.Design#CA1050;-Microsoft.Design#CA1026;-Microsoft.Design#CA1019;-Microsoft.Design#CA1031;-Microsoft.Design#CA1047;-Microsoft.Design#CA1000;-Microsoft.Design#CA1048;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1061;-Microsoft.Design#CA1006;-Microsoft.Design#CA1046;-Microsoft.Design#CA1045;-Microsoft.Design#CA1038;-Microsoft.Design#CA1008;-Microsoft.Design#CA1028;-Microsoft.Design#CA1004;-Microsoft.Design#CA1035;-Microsoft.Design#CA1063;-Microsoft.Design#CA1032;-Microsoft.Design#CA1023;-Microsoft.Design#CA1033;-Microsoft.Design#CA1039;-Microsoft.Design#CA1016;-Microsoft.Design#CA1014;-Microsoft.Design#CA1017;-Microsoft.Design#CA1018;-Microsoft.Design#CA1027;-Microsoft.Design#CA1059;-Microsoft.Design#CA1060;-Microsoft.Design#CA1034;-Microsoft.Design#CA1013;-Microsoft.Design#CA1036;-Microsoft.Design#CA1044;-Microsoft.Design#CA1041;-Microsoft.Design#CA1025;-Microsoft.Design#CA1052;-Microsoft.Design#CA1053;-Microsoft.Design#CA1057;-Microsoft.Design#CA1058;-Microsoft.Design#CA1001;-Microsoft.Design#CA1049;-Microsoft.Design#CA1054;-Microsoft.Design#CA1056;-Microsoft.Design#CA1055;-Microsoft.Design#CA1030;-Microsoft.Design#CA1003;-Microsoft.Design#CA1007;-Microsoft.Design#CA1043;-Microsoft.Design#CA1024;-Microsoft.Design#CA1062;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Interoperability#CA1403;-Microsoft.Interoperability#CA1406;-Microsoft.Interoperability#CA1413;-Microsoft.Interoperability#CA1402;-Microsoft.Interoperability#CA1407;-Microsoft.Interoperability#CA1404;-Microsoft.Interoperability#CA1410;-Microsoft.Interoperability#CA1411;-Microsoft.Interoperability#CA1405;-Microsoft.Interoperability#CA1409;-Microsoft.Interoperability#CA1415;-Microsoft.Interoperability#CA1408;-Microsoft.Interoperability#CA1414;-Microsoft.Interoperability#CA1412;-Microsoft.Maintainability#CA1502;-Microsoft.Maintainability#CA1501;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Naming#CA1718;-Microsoft.Naming#CA1720;-Microsoft.Naming#CA1700;-Microsoft.Naming#CA1712;-Microsoft.Naming#CA1713;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1715;-Microsoft.Naming#CA1710;-Microsoft.Naming#CA1707;-Microsoft.Naming#CA1722;-Microsoft.Naming#CA1711;-Microsoft.Naming#CA1716;-Microsoft.Naming#CA1705;-Microsoft.Naming#CA1725;-Microsoft.Naming#CA1719;-Microsoft.Naming#CA1721;-Microsoft.Naming#CA1706;-Microsoft.Naming#CA1724;-Microsoft.Naming#CA1726;-Microsoft.Performance#CA1809;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1812;-Microsoft.Performance#CA1807;-Microsoft.Performance#CA1813;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1816;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1800;-Microsoft.Performance#CA1818;-Microsoft.Performance#CA1805;-Microsoft.Performance#CA1810;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Performance#CA1814;-Microsoft.Performance#CA1819;-Microsoft.Performance#CA1804;-Microsoft.Performance#CA1820;-Microsoft.Performance#CA1802;-Microsoft.Portability#CA1900;-Microsoft.Reliability#CA2000;-Microsoft.Reliability#CA2002;-Microsoft.Reliability#CA2003;-Microsoft.Reliability#CA2004;-Microsoft.Reliability#CA2006;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2100;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2110;-Microsoft.Security#CA2120;-Microsoft.Security#CA2101;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124;-Microsoft.Usage#CA2209;-Microsoft.Usage#CA2236;-Microsoft.Usage#CA2227;-Microsoft.Usage#CA2213;-Microsoft.Usage#CA2216;-Microsoft.Usage#CA2215;-Microsoft.Usage#CA2214;-Microsoft.Usage#CA2222;-Microsoft.Usage#CA2202;-Microsoft.Usage#CA1806;-Microsoft.Usage#CA2217;-Microsoft.Usage#CA2212;-Microsoft.Usage#CA2219;-Microsoft.Usage#CA2201;-Microsoft.Usage#CA2228;-Microsoft.Usage#CA2221;-Microsoft.Usage#CA2220;-Microsoft.Usage#CA2240;-Microsoft.Usage#CA2229;-Microsoft.Usage#CA2238;-Microsoft.Usage#CA2207;-Microsoft.Usage#CA2208;-Microsoft.Usage#CA2235;-Microsoft.Usage#CA2237;-Microsoft.Usage#CA2232;-Microsoft.Usage#CA2223;-Microsoft.Usage#CA2211;-Microsoft.Usage#CA2233;-Microsoft.Usage#CA2225;-Microsoft.Usage#CA2226;-Microsoft.Usage#CA2231;-Microsoft.Usage#CA2224;-Microsoft.Usage#CA2218;-Microsoft.Usage#CA2234;-Microsoft.Usage#CA2241;-Microsoft.Usage#CA2239;-Microsoft.Usage#CA2200;-Microsoft.Usage#CA1801;-Microsoft.Usage#CA2205;-Microsoft.Usage#CA2230</CodeAnalysisRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>SharpZipLib\Bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <ProjectReference Include="Base\Base.csproj">
+      <Project>{05C4C721-F8E3-42E1-B817-9D165DA1A9FB}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="Data\Data.csproj">
+      <Name>Data</Name>
+      <Project>{66681BB0-955D-451D-A466-94C045B1CF4A}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="Effects\Effects.csproj">
+      <Name>Effects</Name>
+      <Project>{2E4E8805-00F7-4B18-A967-C23994BBCE75}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="Core\Core.csproj">
+      <Name>Core</Name>
+      <Project>{1EADE568-A866-4DD4-9898-0A151E3F0E26}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="Resources\Resources.csproj">
+      <Name>Resources</Name>
+      <Project>{0B173113-1F9B-4939-A62F-A176336F13AC}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="SystemLayer\SystemLayer.csproj">
+      <Name>SystemLayer</Name>
+      <Project>{80572820-93A5-4278-A513-D902BEA2639C}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActionFlags.cs" />
+    <Compile Include="Actions\AcquireFromScannerOrCameraAction.cs" />
+    <Compile Include="Actions\CanvasSizeAction.cs" />
+    <Compile Include="Actions\ClearHistoryAction.cs" />
+    <Compile Include="Actions\ClearMruListAction.cs" />
+    <Compile Include="Actions\CloseAllWorkspacesAction.cs" />
+    <Compile Include="Actions\CloseWorkspaceAction.cs" />
+    <Compile Include="Actions\CopyToClipboardAction.cs" />
+    <Compile Include="Actions\CutAction.cs" />
+    <Compile Include="HistoryFunctions\DuplicateLayerFunction.cs" />
+    <Compile Include="Actions\FlipLayerHorizontalAction.cs" />
+    <Compile Include="Actions\FlipLayerVerticalAction.cs" />
+    <Compile Include="Actions\HistoryFastForwardAction.cs" />
+    <Compile Include="Actions\HistoryRedoAction.cs" />
+    <Compile Include="Actions\HistoryRewindAction.cs" />
+    <Compile Include="Actions\HistoryUndoAction.cs" />
+    <Compile Include="Actions\ImportFromFileAction.cs" />
+    <Compile Include="Actions\MoveActiveLayerDownAction.cs" />
+    <Compile Include="Actions\MoveActiveLayerUpAction.cs" />
+    <Compile Include="Actions\NewImageAction.cs" />
+    <Compile Include="Actions\OpenActiveLayerPropertiesAction.cs" />
+    <Compile Include="Actions\OpenFileAction.cs" />
+    <Compile Include="Actions\PasteAction.cs" />
+    <Compile Include="Actions\PasteInToNewImageAction.cs" />
+    <Compile Include="Actions\PasteInToNewLayerAction.cs" />
+    <Compile Include="Actions\PrintAction.cs" />
+    <Compile Include="Actions\ResizeAction.cs" />
+    <Compile Include="CanvasControl.cs">
+    </Compile>
+    <Compile Include="DocumentClickAction.cs" />
+    <Compile Include="FloodMode.cs" />
+    <Compile Include="GradientInfo.cs" />
+    <Compile Include="GradientType.cs" />
+    <Compile Include="HistoryFunctions\FillSelectionFunction.cs" />
+    <Compile Include="HistoryFunctions\MergeLayerDownFunction.cs" />
+    <Compile Include="HistoryMementos\SelectionHistoryMemento.cs" />
+    <Compile Include="Actions\SendFeedbackAction.cs" />
+    <Compile Include="Actions\ZoomInAction.cs" />
+    <Compile Include="Actions\ZoomOutAction.cs" />
+    <Compile Include="Actions\ZoomToSelectionAction.cs" />
+    <Compile Include="Actions\ZoomToWindowAction.cs" />
+    <Compile Include="AnchorChooserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AnchorEdge.cs" />
+    <Compile Include="AppWorkspaceAction.cs" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BrushInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BrushPreviewRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BrushType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CallbackWithProgressDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CanvasSizeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseToolDefaultsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorDisplayWidget.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ColorEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ColorEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ColorPickerClickBehavior.cs" />
+    <Compile Include="ColorRectangleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ColorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorWheel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommonActionsStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DocumentStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DocumentWorkspaceAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocumentWorkspace.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AppEnvironment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HistoryFunction.cs" />
+    <Compile Include="HistoryFunctionNonFatalException.cs" />
+    <Compile Include="HistoryFunctionResult.cs" />
+    <Compile Include="HistoryFunctions\AddNewBlankLayerFunction.cs" />
+    <Compile Include="HistoryFunctions\CropToSelectionFunction.cs" />
+    <Compile Include="HistoryFunctions\DeleteLayerFunction.cs" />
+    <Compile Include="HistoryFunctions\DeselectFunction.cs" />
+    <Compile Include="HistoryFunctions\EraseSelectionFunction.cs" />
+    <Compile Include="HistoryFunctions\FlattenFunction.cs" />
+    <Compile Include="HistoryFunctions\FlipDocumentFunction.cs" />
+    <Compile Include="HistoryFunctions\FlipDocumentHorizontalFunction.cs" />
+    <Compile Include="HistoryFunctions\FlipDocumentVerticalFunction.cs" />
+    <Compile Include="HistoryFunctions\FlipLayerFunction.cs" />
+    <Compile Include="HistoryFunctions\InvertSelectionFunction.cs" />
+    <Compile Include="HistoryFunctions\RotateDocumentFunction.cs" />
+    <Compile Include="HistoryFunctions\SelectAllFunction.cs" />
+    <Compile Include="HistoryFunctions\SwapLayerFunction.cs" />
+    <Compile Include="HistoryMementos\BitmapHistoryMemento.cs" />
+    <Compile Include="HistoryMementos\CompoundHistoryMemento.cs" />
+    <Compile Include="HistoryMementos\DeleteLayerHistoryMemento.cs" />
+    <Compile Include="HistoryMementos\FlipLayerHistoryMemento.cs" />
+    <Compile Include="HistoryMementos\LayerPropertyHistoryMemento.cs" />
+    <Compile Include="HistoryMementos\MetaDataHistoryMemento.cs" />
+    <Compile Include="HistoryMementos\NewLayerHistoryMemento.cs" />
+    <Compile Include="HistoryMementos\NullHistoryMemento.cs" />
+    <Compile Include="HistoryMementos\ReplaceDocumentHistoryMemento.cs" />
+    <Compile Include="HistoryMementos\SwapLayerHistoryMemento.cs" />
+    <Compile Include="HistoryMementos\ToolHistoryMemento.cs" />
+    <Compile Include="IAlphaBlendingConfig.cs" />
+    <Compile Include="IAntiAliasingConfig.cs" />
+    <Compile Include="IBrushConfig.cs" />
+    <Compile Include="IColorPickerConfig.cs" />
+    <Compile Include="IFloodModeConfig.cs" />
+    <Compile Include="IGradientConfig.cs" />
+    <Compile Include="IHistoryWorkspace.cs" />
+    <Compile Include="IDocumentList.cs" />
+    <Compile Include="IPenConfig.cs" />
+    <Compile Include="IResamplingConfig.cs" />
+    <Compile Include="ISelectionCombineModeConfig.cs" />
+    <Compile Include="ISelectionDrawModeConfig.cs" />
+    <Compile Include="IShapeTypeConfig.cs" />
+    <Compile Include="IStatusBarProgress.cs" />
+    <Compile Include="ITextConfig.cs" />
+    <Compile Include="IToleranceConfig.cs" />
+    <Compile Include="IToolChooser.cs" />
+    <Compile Include="LineCap2.cs" />
+    <Compile Include="Menus\AdjustmentsMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\CheckForUpdatesMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\EditMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\EffectMenuBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\EffectsMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\FileMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\HelpMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\ImageMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\LayersMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\PdnMainMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\ViewMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\WindowMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SelectionDrawMode.cs" />
+    <Compile Include="SelectionDrawModeInfo.cs" />
+    <Compile Include="TransferProgressDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaletteCollection.cs" />
+    <Compile Include="SettingNames.cs" />
+    <Compile Include="PushNullToolMode.cs" />
+    <Compile Include="SavePaletteDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\CloneStampTool.cs" />
+    <Compile Include="Tools\ColorPickerTool.cs" />
+    <Compile Include="Tools\EllipseSelectTool.cs" />
+    <Compile Include="Tools\EllipseTool.cs" />
+    <Compile Include="Tools\EraserTool.cs" />
+    <Compile Include="Tools\FloodToolBase.cs" />
+    <Compile Include="Tools\FreeformShapeTool.cs" />
+    <Compile Include="Tools\GradientTool.cs" />
+    <Compile Include="Tools\LassoSelectTool.cs" />
+    <Compile Include="Tools\LineTool.cs" />
+    <Compile Include="Tools\MagicWandTool.cs" />
+    <Compile Include="Tools\MoveSelectionTool.cs" />
+    <Compile Include="Tools\MoveTool.cs" />
+    <Compile Include="Tools\MoveToolBase.cs" />
+    <Compile Include="Tools\PaintBrushTool.cs" />
+    <Compile Include="Tools\PaintBucketTool.cs" />
+    <Compile Include="Tools\PanTool.cs" />
+    <Compile Include="Tools\PencilTool.cs" />
+    <Compile Include="Tools\RecoloringTool.cs" />
+    <Compile Include="Tools\RectangleSelectTool.cs" />
+    <Compile Include="Tools\RectangleTool.cs" />
+    <Compile Include="Tools\RoundedRectangleTool.cs" />
+    <Compile Include="Tools\SelectionTool.cs" />
+    <Compile Include="Tools\ShapeTool.cs" />
+    <Compile Include="Tools\TextTool.cs" />
+    <Compile Include="Tools\ZoomTool.cs" />
+    <Compile Include="UnsavedChangesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updates\AbortedState.cs" />
+    <Compile Include="Updates\CheckingState.cs" />
+    <Compile Include="Updates\DoneState.cs" />
+    <Compile Include="Updates\DownloadingState.cs" />
+    <Compile Include="Updates\ErrorState.cs" />
+    <Compile Include="Updates\ExtractingState.cs" />
+    <Compile Include="Updates\INewVersionInfo.cs" />
+    <Compile Include="Updates\InstallingState.cs" />
+    <Compile Include="Updates\MarqueeStyle.cs" />
+    <Compile Include="Updates\PrivateInput.cs" />
+    <Compile Include="Updates\ReadyToCheckState.cs" />
+    <Compile Include="Updates\ReadyToInstallState.cs" />
+    <Compile Include="Updates\StartupState.cs" />
+    <Compile Include="Updates\UpdateAvailableState.cs" />
+    <Compile Include="Updates\UpdatesAction.cs" />
+    <Compile Include="Updates\UpdatesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updates\UpdatesOptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updates\UpdatesState.cs" />
+    <Compile Include="Updates\UpdatesStateMachine.cs" />
+    <Compile Include="WorkspaceWidgets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppWorkspace.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolConfigStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExecutedHistoryMementoEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExecutedHistoryMementoEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExecutingHistoryMementoEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExecutingHistoryMementoEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlipType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FloatingToolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FontInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GraphicsPathWrapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HistoryMemento.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HistoryMementoData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HistoryControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryStack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IconBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LayerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LayerElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LayerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostRecentFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MostRecentFiles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MoveNubRenderer.cs">
+    </Compile>
+    <Compile Include="MoveNubShape.cs" />
+    <Compile Include="NewFileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PdnMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PdnStatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PdnToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PdnVersionInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PdnVersionManifest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PenInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProgressDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResizeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RotateNubRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RotateType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SaveConfigDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveProgressDialog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SelectionRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShapeDrawType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Startup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SurfaceForClipboard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TextAlignment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToleranceSliderControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToolBarConfigItems.cs" />
+    <Compile Include="ToolChooserStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolClickedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToolClickedEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToolInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WhichUserColor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZoomBasis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewConfigStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <None Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HistoryForm.resx">
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LayerForm.resx">
+      <DependentUpon>LayerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="app.config" />
+    <None Include="ChooseToolDefaultsDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChooseToolDefaultsDialog.cs</DependentUpon>
+    </None>
+    <None Include="ColorsForm.resx">
+      <DependentUpon>ColorsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SavePaletteDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SavePaletteDialog.cs</DependentUpon>
+    </None>
+    <None Include="UnsavedChangesDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UnsavedChangesDialog.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>@rem Embed manifest
+call "$(SolutionDir)Manifests\embedManifest.bat" "$(TargetPath)" "$(SolutionDir)Manifests\asInvoker.xml"
+call "$(SolutionDir)Manifests\embedManifest.bat" "$(ProjectDir)obj\$(ConfigurationName)\$(TargetFileName)" "$(SolutionDir)Manifests\asInvoker.xml"
+
+@rem Sign
+rem call "$(SolutionDir)signfile.bat" "$(ProjectDir)obj\$(ConfigurationName)\$(TargetFileName)"
+rem call "$(SolutionDir)signfile.bat" "$(TargetPath)"
+
+@rem copy Interop.WIA.dll over
+copy "$(SolutionDir)\Interop.WIA\Interop.WIA.dll" "$(TargetDir)"
+
+@rem Copy DDS over
+mkdir "$(TargetDir)\FileTypes"
+
+copy "$(SolutionDir)\DdsFileType\DdsFileType\bin\$(ConfigurationName)\DdsFileType.dll" "$(TargetDir)\FileTypes"
+
+copy "$(SolutionDir)\DdsFileType\Squish\Squish_x86\$(ConfigurationName)\Squish_x86.dll" "$(TargetDir)"
+copy "$(SolutionDir)\DdsFileType\Squish\Squish_x86_SSE2\$(ConfigurationName)\Squish_x86_SSE2.dll" "$(TargetDir)"
+copy "$(SolutionDir)\DdsFileType\Squish\Squish_x64\$(ConfigurationName)\Squish_x64.dll" "$(TargetDir)"
+
+@rem copy SystemLayer.Native.*.dll over
+rem copy "$(SolutionDir)\SystemLayer.Native\SystemLayer.Native.x64\$(ConfigurationName)\PaintDotNet.SystemLayer.Native.x64.dll" "$(TargetDir)"
+rem copy "$(SolutionDir)\SystemLayer.Native\SystemLayer.Native.x86\$(ConfigurationName)\PaintDotNet.SystemLayer.Native.x86.dll" "$(TargetDir)"
+
+@rem copy ShellExtension_*.dll over
+copy "$(SolutionDir)\ShellExtension\ShellExtension_x64\$(ConfigurationName)\ShellExtension_x64.dll" "$(TargetDir)"
+copy "$(SolutionDir)\ShellExtension\ShellExtension_x86\$(ConfigurationName)\ShellExtension_x86.dll" "$(TargetDir)"
+
+@rem copy WiaProxy32.exe over
+copy "$(SolutionDir)\WiaProxy32\bin\$(ConfigurationName)\WiaProxy32.exe" "$(TargetDir)"
+
+@rem copy English strings over
+copy "$(SolutionDir)\Strings\$(ConfigurationName)\PaintDotNet.Strings.3.resources" "$(TargetDir)"
+
+@rem copy non-English strings (we won't copy the other file/image resource overrides)
+copy "$(SolutionDir)\Resources.mui\*.resources" "$(TargetDir)"
+
+:done
+rem call "$(ProjectDir)prejit.bat" "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

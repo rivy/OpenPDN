@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="Strings"
+	ProjectGUID="{AE3E7C54-B864-4C89-9CC1-89DBE2042E02}"
+	RootNamespace="Strings"
+	Keyword="MakeFileProj"
+	TargetFrameworkVersion="131072"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Debug"
+			ConfigurationType="0"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="@rem compiling English strings&#x0D;&#x0A;&quot;$(SolutionDir)\BuildTools\resgen.exe&quot; &quot;$(ProjectDir)\Strings.resx&quot; &quot;$(TargetPath)&quot;&#x0D;&#x0A;"
+				ReBuildCommandLine="@rem compiling English strings&#x0D;&#x0A;&quot;$(SolutionDir)\BuildTools\resgen.exe&quot; &quot;$(ProjectDir)\Strings.resx&quot; &quot;$(TargetPath)&quot;&#x0D;&#x0A;"
+				CleanCommandLine="del &quot;$(TargetPath)&quot;"
+				Output="$(OutDir)/PaintDotNet.Strings.3.resources"
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Release"
+			ConfigurationType="0"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="@rem compiling English strings&#x0D;&#x0A;&quot;$(SolutionDir)\BuildTools\resgen.exe&quot; &quot;$(ProjectDir)\Strings.resx&quot; &quot;$(TargetPath)&quot;&#x0D;&#x0A;"
+				ReBuildCommandLine="@rem compiling English strings&#x0D;&#x0A;&quot;$(SolutionDir)\BuildTools\resgen.exe&quot; &quot;$(ProjectDir)\Strings.resx&quot; &quot;$(TargetPath)&quot;&#x0D;&#x0A;"
+				CleanCommandLine="del &quot;$(TargetPath)&quot;"
+				Output="$(OutDir)/PaintDotNet.Strings.3.resources"
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
+			>
+			<File
+				RelativePath=".\Strings.resx"
+				SubType="Designer"
+				>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

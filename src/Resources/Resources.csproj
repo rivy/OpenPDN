@@ -1,0 +1,515 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B173113-1F9B-4939-A62F-A176336F13AC}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>PaintDotNet.Resources</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PaintDotNet</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>278921216</BaseAddress>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>-Microsoft.Design#CA1012;-Microsoft.Design#CA2210;-Microsoft.Design#CA1040;-Microsoft.Design#CA1005;-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1010;-Microsoft.Design#CA1011;-Microsoft.Design#CA1009;-Microsoft.Design#CA1050;-Microsoft.Design#CA1026;-Microsoft.Design#CA1019;-Microsoft.Design#CA1031;-Microsoft.Design#CA1047;-Microsoft.Design#CA1000;-Microsoft.Design#CA1048;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1061;-Microsoft.Design#CA1006;-Microsoft.Design#CA1046;-Microsoft.Design#CA1045;-Microsoft.Design#CA1038;-Microsoft.Design#CA1008;-Microsoft.Design#CA1028;-Microsoft.Design#CA1004;-Microsoft.Design#CA1035;-Microsoft.Design#CA1063;-Microsoft.Design#CA1032;-Microsoft.Design#CA1023;-Microsoft.Design#CA1033;-Microsoft.Design#CA1039;-Microsoft.Design#CA1016;-Microsoft.Design#CA1014;-Microsoft.Design#CA1017;-Microsoft.Design#CA1018;-Microsoft.Design#CA1027;-Microsoft.Design#CA1059;-Microsoft.Design#CA1060;-Microsoft.Design#CA1034;-Microsoft.Design#CA1013;-Microsoft.Design#CA1036;-Microsoft.Design#CA1044;-Microsoft.Design#CA1041;-Microsoft.Design#CA1025;-Microsoft.Design#CA1052;-Microsoft.Design#CA1053;-Microsoft.Design#CA1057;-Microsoft.Design#CA1058;-Microsoft.Design#CA1001;-Microsoft.Design#CA1049;-Microsoft.Design#CA1054;-Microsoft.Design#CA1056;-Microsoft.Design#CA1055;-Microsoft.Design#CA1030;-Microsoft.Design#CA1003;-Microsoft.Design#CA1007;-Microsoft.Design#CA1043;-Microsoft.Design#CA1024;-Microsoft.Design#CA1062;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Interoperability#CA1403;-Microsoft.Interoperability#CA1406;-Microsoft.Interoperability#CA1413;-Microsoft.Interoperability#CA1402;-Microsoft.Interoperability#CA1407;-Microsoft.Interoperability#CA1404;-Microsoft.Interoperability#CA1410;-Microsoft.Interoperability#CA1411;-Microsoft.Interoperability#CA1405;-Microsoft.Interoperability#CA1409;-Microsoft.Interoperability#CA1415;-Microsoft.Interoperability#CA1408;-Microsoft.Interoperability#CA1414;-Microsoft.Interoperability#CA1412;-Microsoft.Maintainability#CA1502;-Microsoft.Maintainability#CA1501;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Naming#CA1718;-Microsoft.Naming#CA1720;-Microsoft.Naming#CA1700;-Microsoft.Naming#CA1712;-Microsoft.Naming#CA1713;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1715;-Microsoft.Naming#CA1710;-Microsoft.Naming#CA1707;-Microsoft.Naming#CA1722;-Microsoft.Naming#CA1711;-Microsoft.Naming#CA1716;-Microsoft.Naming#CA1705;-Microsoft.Naming#CA1725;-Microsoft.Naming#CA1719;-Microsoft.Naming#CA1721;-Microsoft.Naming#CA1706;-Microsoft.Naming#CA1724;-Microsoft.Naming#CA1726;-Microsoft.Performance#CA1809;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1812;-Microsoft.Performance#CA1807;-Microsoft.Performance#CA1813;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1816;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1800;-Microsoft.Performance#CA1818;-Microsoft.Performance#CA1805;-Microsoft.Performance#CA1810;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Performance#CA1814;-Microsoft.Performance#CA1819;-Microsoft.Performance#CA1804;-Microsoft.Performance#CA1820;-Microsoft.Performance#CA1802;-Microsoft.Portability#CA1900;-Microsoft.Reliability#CA2000;-Microsoft.Reliability#CA2002;-Microsoft.Reliability#CA2003;-Microsoft.Reliability#CA2004;-Microsoft.Reliability#CA2006;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2100;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2110;-Microsoft.Security#CA2120;-Microsoft.Security#CA2101;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124;-Microsoft.Usage#CA2209;-Microsoft.Usage#CA2236;-Microsoft.Usage#CA2227;-Microsoft.Usage#CA2213;-Microsoft.Usage#CA2216;-Microsoft.Usage#CA2215;-Microsoft.Usage#CA2214;-Microsoft.Usage#CA2222;-Microsoft.Usage#CA2202;-Microsoft.Usage#CA1806;-Microsoft.Usage#CA2217;-Microsoft.Usage#CA2212;-Microsoft.Usage#CA2219;-Microsoft.Usage#CA2201;-Microsoft.Usage#CA2228;-Microsoft.Usage#CA2221;-Microsoft.Usage#CA2220;-Microsoft.Usage#CA2240;-Microsoft.Usage#CA2229;-Microsoft.Usage#CA2238;-Microsoft.Usage#CA2207;-Microsoft.Usage#CA2208;-Microsoft.Usage#CA2235;-Microsoft.Usage#CA2237;-Microsoft.Usage#CA2232;-Microsoft.Usage#CA2223;-Microsoft.Usage#CA2211;-Microsoft.Usage#CA2233;-Microsoft.Usage#CA2225;-Microsoft.Usage#CA2226;-Microsoft.Usage#CA2231;-Microsoft.Usage#CA2224;-Microsoft.Usage#CA2218;-Microsoft.Usage#CA2234;-Microsoft.Usage#CA2241;-Microsoft.Usage#CA2239;-Microsoft.Usage#CA2200;-Microsoft.Usage#CA1801;-Microsoft.Usage#CA2205;-Microsoft.Usage#CA2230</CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>278921216</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>512</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>-Microsoft.Design#CA1012;-Microsoft.Design#CA2210;-Microsoft.Design#CA1040;-Microsoft.Design#CA1005;-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1010;-Microsoft.Design#CA1011;-Microsoft.Design#CA1009;-Microsoft.Design#CA1050;-Microsoft.Design#CA1026;-Microsoft.Design#CA1019;-Microsoft.Design#CA1031;-Microsoft.Design#CA1047;-Microsoft.Design#CA1000;-Microsoft.Design#CA1048;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1061;-Microsoft.Design#CA1006;-Microsoft.Design#CA1046;-Microsoft.Design#CA1045;-Microsoft.Design#CA1038;-Microsoft.Design#CA1008;-Microsoft.Design#CA1028;-Microsoft.Design#CA1004;-Microsoft.Design#CA1035;-Microsoft.Design#CA1063;-Microsoft.Design#CA1032;-Microsoft.Design#CA1023;-Microsoft.Design#CA1033;-Microsoft.Design#CA1039;-Microsoft.Design#CA1016;-Microsoft.Design#CA1014;-Microsoft.Design#CA1017;-Microsoft.Design#CA1018;-Microsoft.Design#CA1027;-Microsoft.Design#CA1059;-Microsoft.Design#CA1060;-Microsoft.Design#CA1034;-Microsoft.Design#CA1013;-Microsoft.Design#CA1036;-Microsoft.Design#CA1044;-Microsoft.Design#CA1041;-Microsoft.Design#CA1025;-Microsoft.Design#CA1052;-Microsoft.Design#CA1053;-Microsoft.Design#CA1057;-Microsoft.Design#CA1058;-Microsoft.Design#CA1001;-Microsoft.Design#CA1049;-Microsoft.Design#CA1054;-Microsoft.Design#CA1056;-Microsoft.Design#CA1055;-Microsoft.Design#CA1030;-Microsoft.Design#CA1003;-Microsoft.Design#CA1007;-Microsoft.Design#CA1043;-Microsoft.Design#CA1024;-Microsoft.Design#CA1062;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Interoperability#CA1403;-Microsoft.Interoperability#CA1406;-Microsoft.Interoperability#CA1413;-Microsoft.Interoperability#CA1402;-Microsoft.Interoperability#CA1407;-Microsoft.Interoperability#CA1404;-Microsoft.Interoperability#CA1410;-Microsoft.Interoperability#CA1411;-Microsoft.Interoperability#CA1405;-Microsoft.Interoperability#CA1409;-Microsoft.Interoperability#CA1415;-Microsoft.Interoperability#CA1408;-Microsoft.Interoperability#CA1414;-Microsoft.Interoperability#CA1412;-Microsoft.Maintainability#CA1502;-Microsoft.Maintainability#CA1501;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Naming#CA1718;-Microsoft.Naming#CA1720;-Microsoft.Naming#CA1700;-Microsoft.Naming#CA1712;-Microsoft.Naming#CA1713;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1715;-Microsoft.Naming#CA1710;-Microsoft.Naming#CA1707;-Microsoft.Naming#CA1722;-Microsoft.Naming#CA1711;-Microsoft.Naming#CA1716;-Microsoft.Naming#CA1705;-Microsoft.Naming#CA1725;-Microsoft.Naming#CA1719;-Microsoft.Naming#CA1721;-Microsoft.Naming#CA1706;-Microsoft.Naming#CA1724;-Microsoft.Naming#CA1726;-Microsoft.Performance#CA1809;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1812;-Microsoft.Performance#CA1807;-Microsoft.Performance#CA1813;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1816;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1800;-Microsoft.Performance#CA1818;-Microsoft.Performance#CA1805;-Microsoft.Performance#CA1810;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Performance#CA1814;-Microsoft.Performance#CA1819;-Microsoft.Performance#CA1804;-Microsoft.Performance#CA1820;-Microsoft.Performance#CA1802;-Microsoft.Portability#CA1900;-Microsoft.Reliability#CA2000;-Microsoft.Reliability#CA2002;-Microsoft.Reliability#CA2003;-Microsoft.Reliability#CA2004;-Microsoft.Reliability#CA2006;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2100;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2110;-Microsoft.Security#CA2120;-Microsoft.Security#CA2101;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124;-Microsoft.Usage#CA2209;-Microsoft.Usage#CA2236;-Microsoft.Usage#CA2227;-Microsoft.Usage#CA2213;-Microsoft.Usage#CA2216;-Microsoft.Usage#CA2215;-Microsoft.Usage#CA2214;-Microsoft.Usage#CA2222;-Microsoft.Usage#CA2202;-Microsoft.Usage#CA1806;-Microsoft.Usage#CA2217;-Microsoft.Usage#CA2212;-Microsoft.Usage#CA2219;-Microsoft.Usage#CA2201;-Microsoft.Usage#CA2228;-Microsoft.Usage#CA2221;-Microsoft.Usage#CA2220;-Microsoft.Usage#CA2240;-Microsoft.Usage#CA2229;-Microsoft.Usage#CA2238;-Microsoft.Usage#CA2207;-Microsoft.Usage#CA2208;-Microsoft.Usage#CA2235;-Microsoft.Usage#CA2237;-Microsoft.Usage#CA2232;-Microsoft.Usage#CA2223;-Microsoft.Usage#CA2211;-Microsoft.Usage#CA2233;-Microsoft.Usage#CA2225;-Microsoft.Usage#CA2226;-Microsoft.Usage#CA2231;-Microsoft.Usage#CA2224;-Microsoft.Usage#CA2218;-Microsoft.Usage#CA2234;-Microsoft.Usage#CA2241;-Microsoft.Usage#CA2239;-Microsoft.Usage#CA2200;-Microsoft.Usage#CA1801;-Microsoft.Usage#CA2205;-Microsoft.Usage#CA2230</CodeAnalysisRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InvariantStrings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PdnInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PdnResources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StartupTestType.cs" />
+    <EmbeddedResource Include="Cursors\CloneStampToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\CloneStampToolCursorSetSource.cur" />
+    <EmbeddedResource Include="Cursors\ColorPickerToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\EllipseSelectToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\EllipseSelectToolCursorMouseDown.cur" />
+    <EmbeddedResource Include="Cursors\EllipseToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\EraserToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\EraserToolCursorMouseDown.cur" />
+    <EmbeddedResource Include="Cursors\FreeformShapeToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\GenericToolCursorMouseDown.cur" />
+    <EmbeddedResource Include="Cursors\LassoSelectToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\LineToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\MagicWandToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\MoveSelectionToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\MoveToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\PaintBrushToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\PaintBrushToolCursorMouseDown.cur" />
+    <EmbeddedResource Include="Cursors\PaintBucketToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\PanToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\PanToolCursorInvalid.cur" />
+    <EmbeddedResource Include="Cursors\PanToolCursorMouseDown.cur" />
+    <EmbeddedResource Include="Cursors\PencilToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\RecoloringToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\RecoloringToolCursorAdjustColor.cur" />
+    <EmbeddedResource Include="Cursors\RecoloringToolCursorPickColor.cur" />
+    <EmbeddedResource Include="Cursors\RectangleSelectToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\RectangleSelectToolCursorMouseDown.cur" />
+    <EmbeddedResource Include="Cursors\RectangleToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\RoundedRectangleToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\ShapeToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\ShapeToolCursorMouseDown.cur" />
+    <EmbeddedResource Include="Cursors\TextToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\ZoomInToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\ZoomOutToolCursor.cur" />
+    <EmbeddedResource Include="Cursors\ZoomToolCursor.cur" />
+    <EmbeddedResource Include="Files\AboutCredits.rtf" />
+    <EmbeddedResource Include="Files\License.txt" />
+    <EmbeddedResource Include="Images\AnchorChooserControl.AnchorImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\TransparentLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\AddNoiseEffect.png" />
+    <EmbeddedResource Include="Icons\AutoLevel.png" />
+    <EmbeddedResource Include="Icons\BlackAndWhiteIcon.png" />
+    <EmbeddedResource Include="Icons\BlurEffect.png" />
+    <EmbeddedResource Include="Icons\BrightnessAndContrastAdjustment.png" />
+    <EmbeddedResource Include="Icons\CloneStampToolIcon.png" />
+    <EmbeddedResource Include="Icons\ColorPickerToolIcon.png" />
+    <EmbeddedResource Include="Icons\CursorXYIcon.png" />
+    <EmbeddedResource Include="Icons\CurvesEffect.png" />
+    <EmbeddedResource Include="Icons\DesaturateEffect.png" />
+    <EmbeddedResource Include="Icons\EdgeDetectEffect.png" />
+    <EmbeddedResource Include="Icons\EllipseSelectToolIcon.png" />
+    <EmbeddedResource Include="Icons\EllipseToolIcon.png" />
+    <EmbeddedResource Include="Icons\EmbossEffect.png" />
+    <EmbeddedResource Include="Icons\EraserToolIcon.png" />
+    <EmbeddedResource Include="Icons\FontBoldIcon.png" />
+    <EmbeddedResource Include="Icons\FontItalicIcon.png" />
+    <EmbeddedResource Include="Icons\FontUnderlineIcon.png" />
+    <EmbeddedResource Include="Icons\FreeformShapeToolIcon.png" />
+    <EmbeddedResource Include="Icons\FrostedGlassEffect.png" />
+    <EmbeddedResource Include="Icons\HistoryFastForwardIcon.png" />
+    <EmbeddedResource Include="Icons\HistoryRewindIcon.png" />
+    <EmbeddedResource Include="Icons\HueAndSaturationAdjustment.png" />
+    <EmbeddedResource Include="Icons\ImageFromDiskIcon.png" />
+    <EmbeddedResource Include="Icons\ImageSizeIcon.png" />
+    <EmbeddedResource Include="Icons\InvertColorsEffect.png" />
+    <EmbeddedResource Include="Icons\LassoSelectToolIcon.png" />
+    <EmbeddedResource Include="Icons\LevelsEffect.png" />
+    <EmbeddedResource Include="Icons\LineToolIcon.png" />
+    <EmbeddedResource Include="Icons\MagicWandToolIcon.png" />
+    <EmbeddedResource Include="Icons\MenuEditCopyIcon.png" />
+    <EmbeddedResource Include="Icons\MenuEditCutIcon.png" />
+    <EmbeddedResource Include="Icons\MenuEditDeselectIcon.png" />
+    <EmbeddedResource Include="Icons\MenuEditEraseSelectionIcon.png" />
+    <EmbeddedResource Include="Icons\MenuEditInvertSelectionIcon.png" />
+    <EmbeddedResource Include="Icons\MenuEditPasteIcon.png" />
+    <EmbeddedResource Include="Icons\MenuEditPasteInToNewLayerIcon.png" />
+    <EmbeddedResource Include="Icons\MenuEditRedoIcon.png" />
+    <EmbeddedResource Include="Icons\MenuEditSelectAllIcon.png" />
+    <EmbeddedResource Include="Icons\MenuEditUndoIcon.png" />
+    <EmbeddedResource Include="Icons\MenuFileAcquireFromClipboardIcon.png" />
+    <EmbeddedResource Include="Icons\MenuFileAcquireFromScannerOrCameraIcon.png" />
+    <EmbeddedResource Include="Icons\MenuFileNewIcon.png" />
+    <EmbeddedResource Include="Icons\MenuFileOpenIcon.png" />
+    <EmbeddedResource Include="Icons\MenuFilePrintIcon.png" />
+    <EmbeddedResource Include="Icons\MenuFileSaveIcon.png" />
+    <EmbeddedResource Include="Icons\MenuHelpAboutIcon.png" />
+    <EmbeddedResource Include="Icons\MenuHelpHelpTopicsIcon.png" />
+    <EmbeddedResource Include="Icons\MenuHelpLanguageIcon.png" />
+    <EmbeddedResource Include="Icons\MenuHelpSendFeedbackIcon.png" />
+    <EmbeddedResource Include="Icons\MenuHelpCheckForUpdatesIcon.png" />
+    <EmbeddedResource Include="Icons\MenuImageCanvasSizeIcon.png" />
+    <EmbeddedResource Include="Icons\MenuImageCropIcon.png" />
+    <EmbeddedResource Include="Icons\MenuImageFlattenIcon.png" />
+    <EmbeddedResource Include="Icons\MenuImageFlipHorizontalIcon.png" />
+    <EmbeddedResource Include="Icons\MenuImageFlipVerticalIcon.png" />
+    <EmbeddedResource Include="Icons\MenuImageResizeIcon.png" />
+    <EmbeddedResource Include="Icons\MenuImageRotate90CCWIcon.png" />
+    <EmbeddedResource Include="Icons\MenuImageRotate90CWIcon.png" />
+    <EmbeddedResource Include="Icons\MenuLayersAddNewLayerIcon.png" />
+    <EmbeddedResource Include="Icons\MenuLayersDeleteLayerIcon.png" />
+    <EmbeddedResource Include="Icons\MenuLayersDuplicateLayerIcon.png" />
+    <EmbeddedResource Include="Icons\MenuLayersFlipHorizontalIcon.png" />
+    <EmbeddedResource Include="Icons\MenuLayersFlipVerticalIcon.png" />
+    <EmbeddedResource Include="Icons\MenuLayersImportFromFileIcon.png" />
+    <EmbeddedResource Include="Icons\MenuLayersLayerPropertiesIcon.png" />
+    <EmbeddedResource Include="Icons\MenuLayersMoveLayerDownIcon.png" />
+    <EmbeddedResource Include="Icons\MenuLayersMoveLayerUpIcon.png" />
+    <EmbeddedResource Include="Icons\MenuViewActualSizeIcon.png" />
+    <EmbeddedResource Include="Icons\MenuViewGridIcon.png" />
+    <EmbeddedResource Include="Icons\MenuViewRulersIcon.png" />
+    <EmbeddedResource Include="Icons\MenuViewZoomInIcon.png" />
+    <EmbeddedResource Include="Icons\MenuViewZoomOutIcon.png" />
+    <EmbeddedResource Include="Icons\MenuViewZoomToSelectionIcon.png" />
+    <EmbeddedResource Include="Icons\MenuViewZoomToWindowIcon.png" />
+    <EmbeddedResource Include="Icons\MenuWindowColorsIcon.png" />
+    <EmbeddedResource Include="Icons\MenuWindowHistoryIcon.png" />
+    <EmbeddedResource Include="Icons\MenuWindowLayersIcon.png" />
+    <EmbeddedResource Include="Icons\MenuWindowToolsIcon.png" />
+    <EmbeddedResource Include="Icons\MotionBlurEffect.png" />
+    <EmbeddedResource Include="Icons\MoveSelectionToolIcon.png" />
+    <EmbeddedResource Include="Icons\MoveToolIcon.png" />
+    <EmbeddedResource Include="Icons\OilPaintingEffect.png" />
+    <EmbeddedResource Include="Icons\PaintBrushToolIcon.png" />
+    <EmbeddedResource Include="Icons\PaintBucketIcon.png" />
+    <EmbeddedResource Include="Icons\PaintDotNet.ico" />
+    <EmbeddedResource Include="Icons\PanToolIcon.png" />
+    <EmbeddedResource Include="Icons\PencilToolIcon.png" />
+    <EmbeddedResource Include="Icons\PixelateEffect.png" />
+    <EmbeddedResource Include="Icons\RadialBlurEffect.png" />
+    <EmbeddedResource Include="Icons\RecoloringToolIcon.png" />
+    <EmbeddedResource Include="Icons\RectangleSelectToolIcon.png" />
+    <EmbeddedResource Include="Icons\RectangleToolIcon.png" />
+    <EmbeddedResource Include="Icons\RedEyeRemoveEffect.png" />
+    <EmbeddedResource Include="Icons\ReliefEffect.png" />
+    <EmbeddedResource Include="Icons\RotateZoomIcon.png" />
+    <EmbeddedResource Include="Icons\RoundedRectangleToolIcon.png" />
+    <EmbeddedResource Include="Icons\SelectionIcon.png" />
+    <EmbeddedResource Include="Icons\SepiaEffect.png" />
+    <EmbeddedResource Include="Icons\ShapeBothIcon.png" />
+    <EmbeddedResource Include="Icons\ShapeInteriorIcon.png" />
+    <EmbeddedResource Include="Icons\ShapeOutlineIcon.png" />
+    <EmbeddedResource Include="Icons\SharpenEffect.png" />
+    <EmbeddedResource Include="Icons\SwapIcon.png" />
+    <EmbeddedResource Include="Icons\TextAlignCenterIcon.png" />
+    <EmbeddedResource Include="Icons\TextAlignLeftIcon.png" />
+    <EmbeddedResource Include="Icons\TextAlignRightIcon.png" />
+    <EmbeddedResource Include="Icons\TextToolIcon.png" />
+    <EmbeddedResource Include="Icons\ZoomToolIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuFileSaveAsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\BulgeEffect.png" />
+    <EmbeddedResource Include="Icons\GlowEffect.png" />
+    <EmbeddedResource Include="Icons\PolarInversionEffect.png" />
+    <EmbeddedResource Include="Icons\TileEffect.png" />
+    <EmbeddedResource Include="Icons\TwistEffect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\ZoomBlurEffect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\ColorAddOverlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\ColorPalettes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuEditPasteInToNewImageIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\GradientToolIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\UnsavedChangesDialog.CancelButton.png" />
+    <EmbeddedResource Include="Icons\UnsavedChangesDialog.SaveButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\CancelIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuFileCloseIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\WarningIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\RoundedEdgeLL.png" />
+    <EmbeddedResource Include="Images\RoundedEdgeLR.png" />
+    <EmbeddedResource Include="Images\RoundedEdgeUL.png" />
+    <EmbeddedResource Include="Images\RoundedEdgeUR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuWindowOpenMdiListIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Icon50x50.png" />
+    <EmbeddedResource Include="Images\PayPalDonate.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cursors\GenericToolCursor.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\ConicalGradientIcon.png" />
+    <EmbeddedResource Include="Icons\RadialGradientIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\LinearClampedGradientIcon.png" />
+    <EmbeddedResource Include="Icons\LinearReflectedGradientIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\LinearDiamondGradientIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuLayersMergeLayerDownIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\AntiAliasingEnabledIcon.png" />
+    <EmbeddedResource Include="Icons\AntiAliasingDisabledIcon.png" />
+    <EmbeddedResource Include="Icons\BlendingEnabledIcon.png" />
+    <EmbeddedResource Include="Icons\BlendingOverwriteIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\AllColorChannelsIcon.png" />
+    <EmbeddedResource Include="Icons\AlphaChannelOnlyIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\SettingsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\UnfocusEffectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MedianEffectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\OutlineEffectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Base\Base.csproj">
+      <Project>{05C4C721-F8E3-42E1-B817-9D165DA1A9FB}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemLayer\SystemLayer.csproj">
+      <Project>{80572820-93A5-4278-A513-D902BEA2639C}</Project>
+      <Name>SystemLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\SavePaletteIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuEditFillSelectionIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MinusButtonIcon.png" />
+    <EmbeddedResource Include="Icons\PlusButtonIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\SwatchIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\CloudsEffect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuHelpTutorialsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuHelpPluginsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuHelpForumIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuHelpPdnWebsiteIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuHelpDonateIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\RightArrowBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuImageRotate180Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\ExpandCanvasQuestion.NoTB.Image.png" />
+    <EmbeddedResource Include="Icons\ExpandCanvasQuestion.YesTB.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\DragDrop.OpenOrImport.FormIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\PencilSketchEffectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\LineCapButton.Flat.End.png" />
+    <EmbeddedResource Include="Images\LineCapButton.Flat.Start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\LineCapButton.Arrow.End.png" />
+    <EmbeddedResource Include="Images\LineCapButton.Arrow.Start.png" />
+    <EmbeddedResource Include="Images\LineCapButton.ArrowFilled.End.png" />
+    <EmbeddedResource Include="Images\LineCapButton.ArrowFilled.Start.png" />
+    <EmbeddedResource Include="Images\LineCapButton.Rounded.End.png" />
+    <EmbeddedResource Include="Images\LineCapButton.Rounded.Start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\DashStyleButton.Dash.png" />
+    <EmbeddedResource Include="Images\DashStyleButton.DashDot.png" />
+    <EmbeddedResource Include="Images\DashStyleButton.DashDotDot.png" />
+    <EmbeddedResource Include="Images\DashStyleButton.Dot.png" />
+    <EmbeddedResource Include="Images\DashStyleButton.Solid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\InkSketchEffectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\SoftenPortraitEffectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\ImageStrip.CloseButton.Disabled.png" />
+    <EmbeddedResource Include="Images\ImageStrip.CloseButton.Hot.png" />
+    <EmbeddedResource Include="Images\ImageStrip.CloseButton.Normal.png" />
+    <EmbeddedResource Include="Images\ImageStrip.CloseButton.Pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuHelpPdnSearchIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\JuliaFractalEffectIcon.png" />
+    <EmbeddedResource Include="Icons\MandelbrotFractalEffectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\ToolConfigStrip.SelectionCombineMode.Exclude.png" />
+    <EmbeddedResource Include="Icons\ToolConfigStrip.SelectionCombineMode.Replace.png" />
+    <EmbeddedResource Include="Icons\ToolConfigStrip.SelectionCombineMode.Union.png" />
+    <EmbeddedResource Include="Icons\ToolConfigStrip.SelectionCombineMode.Xor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\ToolConfigStrip.FloodMode.Global.png" />
+    <EmbeddedResource Include="Icons\ToolConfigStrip.FloodMode.Local.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\ToolConfigStrip.SelectionDrawModeSwapButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\ToolConfigStrip.SelectionDrawModeSplitButton.FixedRatio.png" />
+    <EmbeddedResource Include="Icons\ToolConfigStrip.SelectionDrawModeSplitButton.FixedSize.png" />
+    <EmbeddedResource Include="Icons\ToolConfigStrip.SelectionDrawModeSplitButton.Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\BugWarning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuFileViewPluginLoadErrorsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\MenuWindowResetWindowLocationsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\ReduceNoiseEffectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\FragmentEffectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\ResetIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\PosterizeEffectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\ToolConfigStrip.SelectionCombineMode.Intersect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cursors\RectangleSelectToolCursorMinus.cur" />
+    <EmbeddedResource Include="Cursors\RectangleSelectToolCursorPlus.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cursors\EllipseSelectToolCursorMinus.cur" />
+    <EmbeddedResource Include="Cursors\EllipseSelectToolCursorPlus.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cursors\LassoSelectToolCursorMinus.cur" />
+    <EmbeddedResource Include="Cursors\LassoSelectToolCursorMouseDown.cur" />
+    <EmbeddedResource Include="Cursors\LassoSelectToolCursorPlus.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cursors\MagicWandToolCursorMinus.cur" />
+    <EmbeddedResource Include="Cursors\MagicWandToolCursorPlus.cur" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>@rem Sign
+rem call "$(SolutionDir)signfile.bat" "$(ProjectDir)obj\$(ConfigurationName)\$(TargetFileName)"
+rem call "$(SolutionDir)signfile.bat" "$(TargetPath)"
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

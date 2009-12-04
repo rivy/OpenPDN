@@ -1,0 +1,23 @@
+Paint.NET
+Copyright (C) dotPDN LLC, Rick Brewster, Chris Crosetto, Tom Jackson, Michael Kelsey, Brandon Ortiz, Craig Taylor, Chris Trevino, and Luke Walker.
+Portions Copyright (C) Microsoft Corporation. All Rights Reserved.
+
+License last updated: June 1, 2008
+
+For more licensing information and answers to Frequently Asked Questions, please go to: http://www.getpaint.net/license.html
+
+This software is licensed as per the MIT License below, but with three (3) exceptions:
+
+* Exception 1: The Paint.NET logo and icon artwork are Copyright (C) Rick Brewster. They are covered by the Creative Commons Attribution-NonCommercial-NoDerivs 2.5 license which is detailed here: http://creativecommons.org/licenses/by-nc-nd/2.5/ . However, permission is granted to use the logo and icon artwork in ways that directly discuss or promote Paint.NET (e.g. blog and news posts about Paint.NET, "Made with Paint.NET" watermarks or insets).
+
+* Exception 2: Paint.NET makes use of certain text and graphic resources that it comes with (e.g., toolbar icon graphics, text for menu items and the status bar). These are collectively referred to as "resource assets" and are defined to include the contents of files installed by Paint.NET, or included in its source code distribution, that have a .RESOURCES, .RESX, or .PNG file extension. This also includes embedded resource files within the PaintDotNet.Resources.dll installed file. These "resource assets" are covered by the Creative Commons Attribution-NonCommercial-NoDerivs 2.5 license which is detailed here: http://creativecommons.org/licenses/by-nc-nd/2.5/ . However, permission is granted to create and distribute derivative works of the "resource assets" for the sole purpose of providing a translation to a language other than English. Some "resource assets" are included in unmodified form from external icon or image libraries and are still covered by their original, respective licenses (e.g., "Silk", "Visual Studio 2005 Image Library").
+
+* Exception 3: Although the Paint.NET source code distribution includes the GPC source code, use of the GPC code in any other commercial application is not permitted without a GPC Commercial Use Licence from The University of Manchester. For more information, please refer to the GPC website at: http://www.cs.man.ac.uk/~toby/alan/software/
+
+MIT License: http://www.opensource.org/licenses/mit-license.php
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

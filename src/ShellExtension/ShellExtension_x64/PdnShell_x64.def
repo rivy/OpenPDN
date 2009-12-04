@@ -1,0 +1,4 @@
+LIBRARY ShellExtension_x64
+EXPORTS
+DllCanUnloadNow PRIVATE
+DllGetClassObject PRIVATE

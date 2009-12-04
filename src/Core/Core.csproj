@@ -1,0 +1,479 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1EADE568-A866-4DD4-9898-0A151E3F0E26}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>PaintDotNet.Core</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PaintDotNet</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>270532608</BaseAddress>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>-Microsoft.Design#CA1012;-Microsoft.Design#CA2210;-Microsoft.Design#CA1040;-Microsoft.Design#CA1005;-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1010;-Microsoft.Design#CA1011;-Microsoft.Design#CA1009;-Microsoft.Design#CA1050;-Microsoft.Design#CA1026;-Microsoft.Design#CA1019;-Microsoft.Design#CA1031;-Microsoft.Design#CA1047;-Microsoft.Design#CA1000;-Microsoft.Design#CA1048;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1061;-Microsoft.Design#CA1006;-Microsoft.Design#CA1046;-Microsoft.Design#CA1045;-Microsoft.Design#CA1038;-Microsoft.Design#CA1008;-Microsoft.Design#CA1028;-Microsoft.Design#CA1004;-Microsoft.Design#CA1035;-Microsoft.Design#CA1063;-Microsoft.Design#CA1032;-Microsoft.Design#CA1023;-Microsoft.Design#CA1033;-Microsoft.Design#CA1039;-Microsoft.Design#CA1016;-Microsoft.Design#CA1014;-Microsoft.Design#CA1017;-Microsoft.Design#CA1018;-Microsoft.Design#CA1027;-Microsoft.Design#CA1059;-Microsoft.Design#CA1060;-Microsoft.Design#CA1034;-Microsoft.Design#CA1013;-Microsoft.Design#CA1036;-Microsoft.Design#CA1044;-Microsoft.Design#CA1041;-Microsoft.Design#CA1025;-Microsoft.Design#CA1052;-Microsoft.Design#CA1053;-Microsoft.Design#CA1057;-Microsoft.Design#CA1058;-Microsoft.Design#CA1001;-Microsoft.Design#CA1049;-Microsoft.Design#CA1054;-Microsoft.Design#CA1056;-Microsoft.Design#CA1055;-Microsoft.Design#CA1030;-Microsoft.Design#CA1003;-Microsoft.Design#CA1007;-Microsoft.Design#CA1043;-Microsoft.Design#CA1024;-Microsoft.Design#CA1062;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Interoperability#CA1403;-Microsoft.Interoperability#CA1406;-Microsoft.Interoperability#CA1413;-Microsoft.Interoperability#CA1402;-Microsoft.Interoperability#CA1407;-Microsoft.Interoperability#CA1404;-Microsoft.Interoperability#CA1410;-Microsoft.Interoperability#CA1411;-Microsoft.Interoperability#CA1405;-Microsoft.Interoperability#CA1409;-Microsoft.Interoperability#CA1415;-Microsoft.Interoperability#CA1408;-Microsoft.Interoperability#CA1414;-Microsoft.Interoperability#CA1412;-Microsoft.Maintainability#CA1502;-Microsoft.Maintainability#CA1501;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Naming#CA1718;-Microsoft.Naming#CA1720;-Microsoft.Naming#CA1700;-Microsoft.Naming#CA1712;-Microsoft.Naming#CA1713;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1715;-Microsoft.Naming#CA1710;-Microsoft.Naming#CA1707;-Microsoft.Naming#CA1722;-Microsoft.Naming#CA1711;-Microsoft.Naming#CA1716;-Microsoft.Naming#CA1705;-Microsoft.Naming#CA1725;-Microsoft.Naming#CA1719;-Microsoft.Naming#CA1721;-Microsoft.Naming#CA1706;-Microsoft.Naming#CA1724;-Microsoft.Naming#CA1726;-Microsoft.Performance#CA1809;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1812;-Microsoft.Performance#CA1807;-Microsoft.Performance#CA1813;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1816;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1800;-Microsoft.Performance#CA1818;-Microsoft.Performance#CA1805;-Microsoft.Performance#CA1810;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Performance#CA1814;-Microsoft.Performance#CA1819;-Microsoft.Performance#CA1804;-Microsoft.Performance#CA1820;-Microsoft.Performance#CA1802;-Microsoft.Portability#CA1900;-Microsoft.Reliability#CA2000;-Microsoft.Reliability#CA2002;-Microsoft.Reliability#CA2003;-Microsoft.Reliability#CA2004;-Microsoft.Reliability#CA2006;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2100;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2110;-Microsoft.Security#CA2120;-Microsoft.Security#CA2101;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124;-Microsoft.Usage#CA2209;-Microsoft.Usage#CA2236;-Microsoft.Usage#CA2227;-Microsoft.Usage#CA2213;-Microsoft.Usage#CA2216;-Microsoft.Usage#CA2215;-Microsoft.Usage#CA2214;-Microsoft.Usage#CA2222;-Microsoft.Usage#CA2202;-Microsoft.Usage#CA1806;-Microsoft.Usage#CA2217;-Microsoft.Usage#CA2212;-Microsoft.Usage#CA2219;-Microsoft.Usage#CA2201;-Microsoft.Usage#CA2228;-Microsoft.Usage#CA2221;-Microsoft.Usage#CA2220;-Microsoft.Usage#CA2240;-Microsoft.Usage#CA2229;-Microsoft.Usage#CA2238;-Microsoft.Usage#CA2207;-Microsoft.Usage#CA2208;-Microsoft.Usage#CA2235;-Microsoft.Usage#CA2237;-Microsoft.Usage#CA2232;-Microsoft.Usage#CA2223;-Microsoft.Usage#CA2211;-Microsoft.Usage#CA2233;-Microsoft.Usage#CA2225;-Microsoft.Usage#CA2226;-Microsoft.Usage#CA2231;-Microsoft.Usage#CA2224;-Microsoft.Usage#CA2218;-Microsoft.Usage#CA2234;-Microsoft.Usage#CA2241;-Microsoft.Usage#CA2239;-Microsoft.Usage#CA2200;-Microsoft.Usage#CA1801;-Microsoft.Usage#CA2205;-Microsoft.Usage#CA2230</CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>270532608</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>512</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>-Microsoft.Design#CA1012;-Microsoft.Design#CA2210;-Microsoft.Design#CA1040;-Microsoft.Design#CA1005;-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1010;-Microsoft.Design#CA1011;-Microsoft.Design#CA1009;-Microsoft.Design#CA1050;-Microsoft.Design#CA1026;-Microsoft.Design#CA1019;-Microsoft.Design#CA1031;-Microsoft.Design#CA1047;-Microsoft.Design#CA1000;-Microsoft.Design#CA1048;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1061;-Microsoft.Design#CA1006;-Microsoft.Design#CA1046;-Microsoft.Design#CA1045;-Microsoft.Design#CA1038;-Microsoft.Design#CA1008;-Microsoft.Design#CA1028;-Microsoft.Design#CA1004;-Microsoft.Design#CA1035;-Microsoft.Design#CA1063;-Microsoft.Design#CA1032;-Microsoft.Design#CA1023;-Microsoft.Design#CA1033;-Microsoft.Design#CA1039;-Microsoft.Design#CA1016;-Microsoft.Design#CA1014;-Microsoft.Design#CA1017;-Microsoft.Design#CA1018;-Microsoft.Design#CA1027;-Microsoft.Design#CA1059;-Microsoft.Design#CA1060;-Microsoft.Design#CA1034;-Microsoft.Design#CA1013;-Microsoft.Design#CA1036;-Microsoft.Design#CA1044;-Microsoft.Design#CA1041;-Microsoft.Design#CA1025;-Microsoft.Design#CA1052;-Microsoft.Design#CA1053;-Microsoft.Design#CA1057;-Microsoft.Design#CA1058;-Microsoft.Design#CA1001;-Microsoft.Design#CA1049;-Microsoft.Design#CA1054;-Microsoft.Design#CA1056;-Microsoft.Design#CA1055;-Microsoft.Design#CA1030;-Microsoft.Design#CA1003;-Microsoft.Design#CA1007;-Microsoft.Design#CA1043;-Microsoft.Design#CA1024;-Microsoft.Design#CA1062;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Interoperability#CA1403;-Microsoft.Interoperability#CA1406;-Microsoft.Interoperability#CA1413;-Microsoft.Interoperability#CA1402;-Microsoft.Interoperability#CA1407;-Microsoft.Interoperability#CA1404;-Microsoft.Interoperability#CA1410;-Microsoft.Interoperability#CA1411;-Microsoft.Interoperability#CA1405;-Microsoft.Interoperability#CA1409;-Microsoft.Interoperability#CA1415;-Microsoft.Interoperability#CA1408;-Microsoft.Interoperability#CA1414;-Microsoft.Interoperability#CA1412;-Microsoft.Maintainability#CA1502;-Microsoft.Maintainability#CA1501;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Naming#CA1718;-Microsoft.Naming#CA1720;-Microsoft.Naming#CA1700;-Microsoft.Naming#CA1712;-Microsoft.Naming#CA1713;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1715;-Microsoft.Naming#CA1710;-Microsoft.Naming#CA1707;-Microsoft.Naming#CA1722;-Microsoft.Naming#CA1711;-Microsoft.Naming#CA1716;-Microsoft.Naming#CA1705;-Microsoft.Naming#CA1725;-Microsoft.Naming#CA1719;-Microsoft.Naming#CA1721;-Microsoft.Naming#CA1706;-Microsoft.Naming#CA1724;-Microsoft.Naming#CA1726;-Microsoft.Performance#CA1809;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1812;-Microsoft.Performance#CA1807;-Microsoft.Performance#CA1813;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1816;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1800;-Microsoft.Performance#CA1818;-Microsoft.Performance#CA1805;-Microsoft.Performance#CA1810;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Performance#CA1814;-Microsoft.Performance#CA1819;-Microsoft.Performance#CA1804;-Microsoft.Performance#CA1820;-Microsoft.Performance#CA1802;-Microsoft.Portability#CA1900;-Microsoft.Reliability#CA2000;-Microsoft.Reliability#CA2002;-Microsoft.Reliability#CA2003;-Microsoft.Reliability#CA2004;-Microsoft.Reliability#CA2006;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2100;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2110;-Microsoft.Security#CA2120;-Microsoft.Security#CA2101;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124;-Microsoft.Usage#CA2209;-Microsoft.Usage#CA2236;-Microsoft.Usage#CA2227;-Microsoft.Usage#CA2213;-Microsoft.Usage#CA2216;-Microsoft.Usage#CA2215;-Microsoft.Usage#CA2214;-Microsoft.Usage#CA2222;-Microsoft.Usage#CA2202;-Microsoft.Usage#CA1806;-Microsoft.Usage#CA2217;-Microsoft.Usage#CA2212;-Microsoft.Usage#CA2219;-Microsoft.Usage#CA2201;-Microsoft.Usage#CA2228;-Microsoft.Usage#CA2221;-Microsoft.Usage#CA2220;-Microsoft.Usage#CA2240;-Microsoft.Usage#CA2229;-Microsoft.Usage#CA2238;-Microsoft.Usage#CA2207;-Microsoft.Usage#CA2208;-Microsoft.Usage#CA2235;-Microsoft.Usage#CA2237;-Microsoft.Usage#CA2232;-Microsoft.Usage#CA2223;-Microsoft.Usage#CA2211;-Microsoft.Usage#CA2233;-Microsoft.Usage#CA2225;-Microsoft.Usage#CA2226;-Microsoft.Usage#CA2231;-Microsoft.Usage#CA2224;-Microsoft.Usage#CA2218;-Microsoft.Usage#CA2234;-Microsoft.Usage#CA2241;-Microsoft.Usage#CA2239;-Microsoft.Usage#CA2200;-Microsoft.Usage#CA1801;-Microsoft.Usage#CA2205;-Microsoft.Usage#CA2230</CodeAnalysisRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <ProjectReference Include="..\Base\Base.csproj">
+      <Project>{05C4C721-F8E3-42E1-B817-9D165DA1A9FB}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Resources\Resources.csproj">
+      <Project>{0B173113-1F9B-4939-A62F-A176336F13AC}</Project>
+      <Name>Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemLayer\SystemLayer.csproj">
+      <Name>SystemLayer</Name>
+      <Project>{80572820-93A5-4278-A513-D902BEA2639C}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AngleChooserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArrowButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BlockedPluginException.cs" />
+    <Compile Include="IFirstSelection.cs" />
+    <Compile Include="IndirectUI\ControlInfo.cs" />
+    <Compile Include="IndirectUI\ControlInfoPropertyNames.cs" />
+    <Compile Include="EtchedLine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\Int32ColorWheelPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\StaticListRadioButtonPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IPluginSupportInfo.cs" />
+    <Compile Include="PanControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\PanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\PanelControlInfo.cs" />
+    <Compile Include="PluginSupportInfo.cs" />
+    <Compile Include="PluginSupportInfoAttribute.cs" />
+    <Compile Include="IndirectUI\PropertyControlInfo.cs" />
+    <Compile Include="LayoutUtility.cs" />
+    <Compile Include="AutoSizeStrategy.cs" />
+    <Compile Include="BinaryPixelOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BinaryPixelOps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BitVector2D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BitVector2DSurfaceAdapter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ButtonBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColorBgra.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ColorGradientControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommandButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlShadow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColorTransferMode.cs" />
+    <Compile Include="CursorChanger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CurveControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CurveControlLuminosity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CurveControlRgb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EdgeSnapOptions.cs" />
+    <Compile Include="EnumLocalizer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GradientRenderer.cs" />
+    <Compile Include="GradientRenderers.cs" />
+    <Compile Include="HandledEventArgs`1.cs" />
+    <Compile Include="HandledEventHandler`1.cs" />
+    <Compile Include="HeaderLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Histogram.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HistogramControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HistogramLuminosity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HistogramRgb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HsvColor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IBitVector2D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IFormAssociate.cs" />
+    <Compile Include="IHotKeyTarget.cs" />
+    <Compile Include="ImageListMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IndexEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IndexEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IPaintBackground.cs" />
+    <Compile Include="ISnapManagerHost.cs" />
+    <Compile Include="ISnapObstacleHost.cs" />
+    <Compile Include="IThumbnailProvider.cs" />
+    <Compile Include="ObsoleteClasses.cs" />
+    <Compile Include="ImageStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PdnNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\PropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\PropertyControlInfoAttribute.cs">
+    </Compile>
+    <Compile Include="IndirectUI\PropertyControlPropertyAttribute.cs">
+    </Compile>
+    <Compile Include="IndirectUI\AngleChooserPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\BooleanCheckBoxPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\DoubleSliderPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\DoubleVectorSliderPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\Int32IncrementButtonPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\DoubleVectorPanAndSliderPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\StaticListDropDownPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\Int32SliderPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\SliderPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\StringTextBoxPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\VectorSliderPropertyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IndirectUI\PropertyControlType.cs" />
+    <Compile Include="IndirectUI\PropertyControlUtil.cs" />
+    <Compile Include="IndirectUI\PropertyControl`1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SnapDescription.cs" />
+    <Compile Include="SnapManager.cs" />
+    <Compile Include="SnapRegion.cs" />
+    <Compile Include="State.cs" />
+    <Compile Include="StateMachine.cs" />
+    <Compile Include="StateMachineExecutor.cs" />
+    <Compile Include="SwatchControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TaskButton.cs" />
+    <Compile Include="TaskDialog.cs" />
+    <Compile Include="ThumbnailManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VerticalSnapEdge.cs" />
+    <Compile Include="PdnBanner.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SnapObstacle.cs" />
+    <Compile Include="SnapObstacleController.cs" />
+    <Compile Include="SplineInterpolator.cs" />
+    <Compile Include="IPixelOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IrregularSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ISurfaceDraw.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IUnitsComboBox.cs" />
+    <Compile Include="List.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaskedSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MeasurementUnit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MemoryBlock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MovingEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MovingEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PaintEventArgs2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PaintEventHandler2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PanelEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PdnBaseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PdnBaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PdnException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PdnGraphicsPath.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PdnRegion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PersistedObject`1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PersistedObjectLocker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PixelOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PlacedSurface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SurfaceBoxGraphicsRenderer.cs" />
+    <Compile Include="HorizontalSnapEdge.cs" />
+    <Compile Include="ProgressEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProgressEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PropertyEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PropertyEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RenderArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RenderedTileEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RenderedTileEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ResamplingAlgorithm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RgbColor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ruler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ScaleFactor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Scanline.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Selection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StylusEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Surface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SurfaceBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SurfaceBoxBaseRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SurfaceBoxGridRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SurfaceBoxRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SurfaceBoxRendererList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Threading\ThreadPool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Threading\WaitableCounter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnaryPixelOp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnaryPixelOps.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitsComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitsComboBoxHandler.cs" />
+    <Compile Include="UnitsComboBoxStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UnitsDisplayType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WaitCursorChanger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WorkerThreadException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CommandButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CommandButton.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>@rem Sign
+rem call "$(SolutionDir)signfile.bat" "$(ProjectDir)obj\$(ConfigurationName)\$(TargetFileName)"
+rem call "$(SolutionDir)signfile.bat" "$(TargetPath)"
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>
